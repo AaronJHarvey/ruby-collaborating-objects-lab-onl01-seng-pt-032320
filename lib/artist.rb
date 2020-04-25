@@ -26,3 +26,4 @@ else
   self.new(name)
 end
 end
+end
