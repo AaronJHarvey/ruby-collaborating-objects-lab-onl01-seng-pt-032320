@@ -21,7 +21,7 @@ end
 
 def self.find_or_create_by_name(name)
 if self.find(name) 
-  self.find(name)
+ return self.find(name)
 else
   self.new(name)
 end
