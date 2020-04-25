@@ -27,5 +27,6 @@ else
 end
 end
 
-def self.find()
+def self.find(name)
+  self.all.find {|name| self.name == self}
 end
