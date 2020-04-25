@@ -24,7 +24,7 @@ self.find(name) ? self.find(name) : self.new(name)
 end
 
 def self.find(name)
-  self.all.find {|name| artist.name == name}
+  self.all.find {|name| name.name == name}
 end
 
 def save
