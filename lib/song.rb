@@ -22,5 +22,6 @@ song.artist_name = filename.split(" - ")[0]
 end
 
 def artist_name=(name)
-  self.artist = Artist.new('')
+   self.artist = Artist.find_or_create_by_name(name)
+    artist.add_song(self)end
 end
