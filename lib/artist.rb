@@ -26,4 +26,6 @@ else
   self.new(name)
 end
 end
+
+def self.find()
 end
