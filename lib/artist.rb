@@ -11,8 +11,8 @@ def self.all
   @@all 
 end
 
-def add_song(Song)
-@@all
+def add_song(ong)
+song.artist = self
 end 
 
 end
