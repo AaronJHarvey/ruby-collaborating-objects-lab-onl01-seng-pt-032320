@@ -15,5 +15,6 @@ def add_song(name)
 name.artist = self
 end 
 
+def songs
 
 end
