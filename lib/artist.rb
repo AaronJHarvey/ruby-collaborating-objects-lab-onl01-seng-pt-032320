@@ -28,5 +28,5 @@ end
 end
 
 def self.find(name)
-  self.all.find {|name| artist.name == self}
+  self.all.find {|name| artist.name == name}
 end
